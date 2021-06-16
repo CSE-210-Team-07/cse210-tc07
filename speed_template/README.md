@@ -6,7 +6,7 @@ any time. Type a word correctly and your score goes up.
 
 ## Getting Started
 ---
-Make sure you have Python 3.8.0 or newer and asciimatics 1.12.0 or new installed 
+Make sure you have Python 3.8.0 or newer and Asciimatics 1.12.0 or new installed 
 and running on your machine. You can install Asciimatics by opening a terminal 
 and running the following command.
 ```
@@ -41,3 +41,4 @@ root                    (project root folder)
 ## Authors
 ---
 * # TODO: Add names and emails here
+Mike Heston - hes20001@gmail.com
