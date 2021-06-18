@@ -57,7 +57,8 @@ class Director:
 		"""
 		letter = self._input_service.get_letter()
 		if letter == "*":
-			self._typing.add_letter (letter)  
+			return
+		self._typing.add_letter (letter)  
 
 	def _do_updates(self):
 		"""Updates the important game information for each round of play. In 

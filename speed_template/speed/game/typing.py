@@ -28,8 +28,10 @@ class Typing(Actor):
 		self.set_text(f"Buffer: {self._letters}")
 
 	def get_letters(self):
+		ret = self._letters
+		self._letters = ""
 		self.set_text(f"Buffer: ")
-		return self._letters
+		return ret
 
 
 
